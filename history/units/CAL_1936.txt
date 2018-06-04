@@ -1,0 +1,200 @@
+division_template = {
+	name = "Californian Infantry"
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 0 y = 4 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+		infantry = { x = 1 y = 4 }
+	}
+	
+	support = {
+		recon = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "People's Home Guard"
+	
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+	}
+}
+
+units = {
+	division= {	
+		name = "1st California Home Guard"
+		location = 9814 # Los Angeles
+		division_template = "People's Home Guard"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+}
+
+units = {
+	division= {	
+		name = "2nd California Home Guard"
+		location = 9814 # Los Angeles
+		division_template = "People's Home Guard"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+}
+
+units = {
+	division= {	
+		name = "3rd California Home Guard"
+		location = 9814 # Los Angeles
+		division_template = "People's Home Guard"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+}
+
+units = {
+	division= {	
+		name = "4th California Home Guard"
+		location = 9671 # SF
+		division_template = "People's Home Guard"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+}
+
+units = {
+	division= {	
+		name = "5th California Home Guard"
+		location = 9671 # SF
+		division_template = "People's Home Guard"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+}
+
+units = {
+	division= {	
+		name = "6th California Home Guard"
+		location = 9671 # SF
+		division_template = "People's Home Guard"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+}
+
+units = {
+	division= {	
+		name = "7th California Home Guard"
+		location = 3513 # Portland
+		division_template = "People's Home Guard"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+}
+
+units = {
+	division= {	
+		name = "8th California Home Guard"
+		location = 3513 # Portland
+		division_template = "People's Home Guard"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+}
+
+units = {
+	division= {	
+		name = "9th California Home Guard"
+		location = 3513 # Portland
+		division_template = "People's Home Guard"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+}
+
+units = {
+	division= {	
+		name = "1st California Infantry"
+		location = 10573
+		division_template = "Californian Infantry"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+}
+
+units = {
+	division= {	
+		name = "2nd California Infantry"
+		location = 7920
+		division_template = "Californian Infantry"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+}
+
+units = {
+	division= {	
+		name = "3rd California Infantry"
+		location = 7756
+		division_template = "Californian Infantry"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+}
+
+units = {
+	division= {	
+		name = "4th California Infantry"
+		location = 7879
+		division_template = "Californian Infantry"
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+
+	}
+}
+
+units = {
+	division= {	
+		name = "1st Californian Elite Infantry"
+		location = 10625
+		division_template = "Californian Infantry"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+
+	}
+}
+
+units = {
+	division= {	
+		name = "2nd Californian Elite Infantry"
+		location = 1690
+		division_template = "Californian Infantry"
+		start_experience_factor = 0.75
+		start_equipment_factor = 1
+
+	}
+}

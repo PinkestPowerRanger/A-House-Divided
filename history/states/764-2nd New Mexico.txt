@@ -1,0 +1,21 @@
+state={
+	id=764
+	name="STATE_764"
+	provinces={
+		3867 5044 12720 12791 
+	}
+history={
+		owner = MEX
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 9
+			air_base = 3
+
+		}
+		add_core_of = MEX
+		}
+
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+}

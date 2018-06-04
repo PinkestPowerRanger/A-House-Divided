@@ -1,0 +1,21 @@
+ideas = {
+
+	country = {
+		failed_state = {
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				democratic_drift = 0.10
+				fascism_drift = 0.05
+
+			}
+		}	

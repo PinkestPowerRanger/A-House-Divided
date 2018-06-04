@@ -1,0 +1,71 @@
+
+state={
+	id=362
+	name="STATE_362"
+
+	history={
+		owner = CSA
+		buildings = {
+			infrastructure = 6
+			industrial_complex = 4
+			dockyard = 4
+			air_base = 10
+			anti_air_building = 1
+			arms_factory = 1
+			788 = {
+				naval_base = 10
+				coastal_bunker = 4
+				bunker = 4
+
+			}
+			873 = {
+			bunker = 4
+			}
+			951 = {
+			bunker = 4
+			}
+			11873 = {
+			bunker = 1
+			}
+			3823 = {
+			bunker = 1
+			}
+			11841 = {
+			bunker = 4
+			}
+
+
+		}
+		add_core_of = USA
+		add_core_of = CSA
+		victory_points = {
+			788 15 
+		}
+		victory_points = {
+			3823 30
+		}
+		victory_points = {
+			873 1
+		}
+		victory_points = {
+			11841 1
+		}
+		
+		1939.1.1 = {
+			buildings = {
+				industrial_complex = 4
+				dockyard = 5
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		788 865 873 951 1506 3823 3925 6846 7558 9779 9931 10343 10412 10439 11738 11841 11873 
+	}
+	manpower=4151054
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

@@ -1,0 +1,27 @@
+ideas = {
+
+	country = {
+		national_economy = {
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.10
+				production_factory_max_efficiency_factor = 0.15
+				production_speed_buildings_factor = 0.05
+				industrial_capacity_factory = 0.10
+				industry_air_damage_factor = 0.10
+				industry_repair_factor = 0.05
+				stability_factor = -0.15
+				conscription = -0.015
+
+			}
+		}	

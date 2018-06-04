@@ -1,0 +1,4 @@
+MIC = "countries/Michigan.txt"
+CAL = "countries/California.txt"
+CSA = "countries/Confederacy.txt"
+COE = "countries/NewEngland.txt"

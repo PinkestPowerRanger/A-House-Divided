@@ -1,0 +1,110 @@
+capital = 393
+
+OOB = "MIC_1936"
+
+set_technology = {
+		infantry_weapons = 2
+		infantry_weapons1 = 2
+		tech_support = 2
+		tech_recon = 1
+		early_fighter = 2
+		early_bomber = 1
+		early_submarine = 1
+		basic_destroyer = 2
+		early_destroyer = 1
+		early_light_cruiser = 2
+		basic_light_cruiser = 1
+		early_heavy_cruiser = 1
+		transport = 2
+}
+
+add_ideas = { 
+    increased_manpower
+    national_economy
+}
+
+set_politics = {
+
+	parties = {
+		democratic = { 
+			popularity = 67
+		}
+
+		fascism = {
+			popularity = 5
+		}
+		
+		communism = {
+			popularity = 23
+		}
+		
+		neutrality = { 
+			popularity = 5
+		}
+	}
+	
+	ruling_party = democratic
+	last_election = "1933.3.5"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_convoys = 780
+set_research_slots = 4
+set_stability = 0.65
+set_war_support = 0.50
+
+create_country_leader = {
+	name = "James Cox"
+	desc = "POLITICS_JAMES_COX_DESC"
+	picture = "gfx/leaders/MIC/james_cox.dds"
+	expire = "1965.1.1"
+	ideology = liberalism
+	#traits = {
+		#Put Leader Trait Here from Compton then remove hashtag
+	#}
+}
+
+create_country_leader = {
+	name = "Norman Thomas"
+	desc = "POLITICS_NORMAN_THOMAS_DESC"
+	picture = "gfx/leaders/MIC/norman_thomas.dds"
+	expire = "1965.1.1"
+	ideology = marxism
+	#traits = {
+		#Put Leader Trait Here from Compton then remove hashtag
+	#}
+}
+
+create_country_leader = {
+	name = "William Dudley"
+	desc = "POLITICS_WILLIAM_DUDLEY_DESC"
+	picture = "gfx/leaders/MIC/william_dudley.dds"
+	expire = "1965.1.1"
+	ideology = rexism
+	#traits = {
+		#Put Leader Trait Here from Compton then remove hashtag
+	#}
+}
+
+create_country_leader = {
+	name = "Frank Fitzgerald"
+	desc = "POLITICS_FRANK_FITZGERALD_DESC"
+	picture = "gfx/leaders/MIC/frank_fitzgerald.dds"
+	expire = "1965.1.1"
+	ideology = dixieist
+	#traits = {
+		#Put Leader Trait Here from Compton then remove hashtag
+	#}
+}
+
+create_country_leader = {
+	name = "Jay Taylor"
+	desc = "POLITICS_JAY_TAYLOR_DESC"
+	picture = "gfx/leaders/Europe/portrait_europe_generic_land_13.dds"
+	expire = "1965.1.1"
+	ideology = centrism
+	#traits = {
+		#Put Leader Trait Here from Compton then remove hashtag
+	#}
+}
